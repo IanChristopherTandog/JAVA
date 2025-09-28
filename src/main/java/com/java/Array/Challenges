@@ -1,0 +1,44 @@
+🔹 Beginner
+
+Count even and odd numbers - Done!
+Given an array of integers, count how many are even and how many are odd.
+
+Find the smallest element - Done!
+Similar to finding max, but this time find the minimum value.
+
+Calculate average - Done!
+Find the average of all elements in an array.
+
+Copy an array - Done!
+Create a new array that is an exact copy of the original.
+
+🔹 Intermediate
+
+Count occurrences of a number
+Given an array and a number, count how many times it appears.
+
+Find second largest number
+Example: {3, 8, 12, 5} → second largest = 8.
+
+Remove duplicates (without using collections)
+{1, 2, 2, 3, 4, 4, 5} → {1, 2, 3, 4, 5}.
+
+Merge two arrays
+Example: {1, 2, 3} + {4, 5} → {1, 2, 3, 4, 5}.
+
+🔹 Advanced
+
+Rotate array to the left/right
+Example: Left rotate {1, 2, 3, 4, 5} → {2, 3, 4, 5, 1}.
+
+Sort an array without using Arrays.sort()
+Implement bubble sort or selection sort.
+
+Find missing number in a sequence
+Example: {1, 2, 4, 5} → missing = 3.
+
+Check if an array is a palindrome
+Example: {1, 2, 3, 2, 1} → true.
+
+Find pair of numbers that sum up to a target
+Example: {2, 7, 11, 15}, target = 9 → Pair = (2, 7).
