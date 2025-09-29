@@ -16,12 +16,15 @@ Create a new array that is an exact copy of the original.
 
 Count occurrences of a number
 Given an array and a number, count how many times it appears.
+//Solved in: 15 mins
 
 Find second largest number
 Example: {3, 8, 12, 5} → second largest = 8.
+//Solved in: Solved in: 22:59.21 minutes
 
 Remove duplicates (without using collections)
 {1, 2, 2, 3, 4, 4, 5} → {1, 2, 3, 4, 5}.
+//Solved in:
 
 Merge two arrays
 Example: {1, 2, 3} + {4, 5} → {1, 2, 3, 4, 5}.
