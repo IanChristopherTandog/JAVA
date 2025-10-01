@@ -1,0 +1,9 @@
+Iterate Through a List
+
+Now that we have a List of url strings, imagine that we want to print out only the values that contain the text stackoverflow.com.
+
+
+Start by iterating through the urlList and printing each url item to the Console with System.out.println().
+Inside the for loop, check if each url in the list contains() the text stackoverflow.com, and if it does, print that url string to the Console.
+
+Run your program by clicking the Run button below the Terminal. OR run the following from the Terminal: mvn -q exec:java

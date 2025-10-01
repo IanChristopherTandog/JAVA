@@ -1,33 +1,36 @@
 package com.java.Conditional.Review;
 
 public class Order {
+    String name;
     boolean isFilled;
     double billAmount;
     String shipping;
 
-    public Order(boolean filled, double cost, String shippingMethod){
-        if (cost > 24.0){
-            System.out.println("High value item!");
-        }
-        else {
-            System.out.println("Low value item!");
-        }
+    public Order(String itemName, boolean filled, double cost, String shippingMethod) {
+        name = itemName;
         isFilled = filled;
         billAmount = cost;
         shipping = shippingMethod;
     }
 
     public void ship() {
-        if (isFilled) {
-            System.out.println("Shipping");
+        System.out.println("Order: " + name);
+        if (billAmount > 24.00) {
+            System.out.println("High value item!");
         } else {
-            System.out.println("Order not ready");
+            System.out.println("Low value item!");
+        }
+
+        if (isFilled) {
+            System.out.println("Shipping " + name);
+        } else {
+            System.out.println("The order " + name +  " not yet ready");
         }
 
         double shippingCost = calculateShipping();
 
-        System.out.println("Shipping cost: ");
-        System.out.println(shippingCost);
+        System.out.println("Shipping cost: " + shippingCost);
+        System.out.println("--------------------------");
     }
 
     public double calculateShipping() {
@@ -44,8 +47,13 @@ public class Order {
         }
         return shippingCost;
     }
+
     public static void main(String[] args) {
+        // create instances and call methods here!
+        Order Fastfood = new Order("Spaghetti",true, 50, "Regular");
+        Order Snacks = new Order("Piatos",false, 100, "Express");
 
-
+        Fastfood.ship();
+        Snacks.ship();
     }
 }
