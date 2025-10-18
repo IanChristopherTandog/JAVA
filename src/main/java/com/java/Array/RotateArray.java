@@ -9,11 +9,7 @@ public class RotateArray {
         int[] rotated = new int[numbers.length];
 
         for (int i = 0; i < numbers.length; i++){
-            System.out.println();
-        }
-
-        for(int num : numbers){
-            System.out.println(num);
+            System.out.println(numbers[4]);
         }
     }
 }
